@@ -1,0 +1,27 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer > * {
+  margin: 2rem;
+}
+
+.footer-menu > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu > ul > li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.footer-menu > ul > li > a {
+  text-decoration: none;
+  color: black;
+}

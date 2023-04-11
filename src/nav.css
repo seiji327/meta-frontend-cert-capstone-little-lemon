@@ -1,14 +1,38 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 .nav > ul {
   display: flex;
 }
 
 .nav > ul > li {
   margin-right: 3rem;
-  list-style: none;
 }
 
 .nav > ul > li > a {
-  text-decoration: none;
-  color: black;
   font-weight: 600;
+}
+
+@media (max-width: 950px) {
+  .nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }

@@ -36,3 +36,13 @@
 .customer-info > p {
   font-weight: 800;
 }
+
+@media (max-width: 950px) {
+  .body {
+    flex-direction: column;
+  }
+
+  .body > .rating-card {
+    width: 65%;
+  }
+}

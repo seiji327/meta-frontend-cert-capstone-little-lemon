@@ -33,7 +33,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 20%;
   border-radius: 5px;
   background: #f3f3f37d;
 }
@@ -61,4 +61,27 @@
 
 .card > .description > .card-footer {
   font-weight: 800;
+}
+
+@media (max-width: 1300px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media (max-width: 950px) {
+  .body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 65%;
+  }
+}
+
+@media (max-width: 550px) {
+  .heading {
+    flex-direction: column;
+  }
 }

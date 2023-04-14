@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./nav.css";
 
 const Nav = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
     <>
       <nav className="nav">
@@ -30,8 +32,11 @@ const Nav = () => {
         src="/hamburger-icon.svg"
         alt="hamburger menu icon"
         className="hamburger"
+        onClick={() => setIsMobileMenuOpen((prev) => !prev)}
       />
-      <nav className="mobile-nav">
+      <nav
+        className={`mobile-nav ${isMobileMenuOpen ? "active" : ""}`.trimEnd()}
+      >
         <ul className="mobile-nav-list">
           <li>
             <a href="#home">Home</a>

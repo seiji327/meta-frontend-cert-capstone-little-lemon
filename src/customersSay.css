@@ -1,0 +1,38 @@
+.customers-say {
+  margin-top: 5rem;
+}
+
+.customers-say > h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.body {
+  display: flex;
+}
+
+.body > .rating-card {
+  width: 300px;
+  background: #f3f3f37d;
+  padding: 2rem;
+}
+
+.rating-card > h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.customer-info > img {
+  width: 50%;
+  display: inline-block;
+}
+
+.customer-info > p {
+  font-weight: 800;
+}

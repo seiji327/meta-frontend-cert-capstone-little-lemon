@@ -1,5 +1,5 @@
 import React from "react";
-import "./customersSay.css";
+import "./css/customersSay.css";
 
 const CustomersSay = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./specials.css";
+import "./css/specials.css";
 
 const Specials = () => {
   return (

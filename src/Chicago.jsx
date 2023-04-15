@@ -1,5 +1,5 @@
 import React from "react";
-import "./chicago.css";
+import "./css/chicago.css";
 
 const Chicago = () => {
   return (

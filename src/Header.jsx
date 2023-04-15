@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 
-import "./header.css";
+import "./css/header.css";
 
 const Header = () => {
   return (

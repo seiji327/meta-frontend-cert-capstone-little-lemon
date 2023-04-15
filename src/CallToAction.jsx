@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./callToAction.css";
+import "./css/callToAction.css";
 
 const CallToAction = () => {
   return (

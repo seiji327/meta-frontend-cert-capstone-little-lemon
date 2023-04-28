@@ -10,7 +10,7 @@ const CustomersSay = () => {
       <div className="body">
         {/* CARD 1 */}
         <article className="rating-card">
-          <img src="/testi1.jpg" alt="" />
+          <img src="/jess.jpg" alt="" />
           <p className="name">Jess</p>
           <p className="visited">Visited on Apr, 2021</p>
           <blockquote>
@@ -21,7 +21,7 @@ const CustomersSay = () => {
         </article>
         {/* CARD 2 */}
         <article className="rating-card">
-          <img src="/testi2.jpg" alt="" />
+          <img src="/sergio.jpg" alt="" />
           <p className="name">Sergio</p>
           <p className="visited">Visited on May, 2019</p>
           <blockquote>
@@ -32,7 +32,7 @@ const CustomersSay = () => {
         </article>
         {/* CARD 3 */}
         <article className="rating-card">
-          <img src="/testi3.jpg" alt="" />
+          <img src="/anna.jpg" alt="" />
           <p className="name">Anna</p>
           <p className="visited">Visited on Nov, 2022</p>
           <blockquote>

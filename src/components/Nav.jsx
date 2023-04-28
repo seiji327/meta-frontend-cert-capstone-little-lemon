@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import "../css/nav.css";
 
 const Nav = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const navigate = useNavigate();
 
   return (
     <>

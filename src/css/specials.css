@@ -5,17 +5,17 @@
   gap: 4rem;
 }
 
-.heading {
+.specials > .heading {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.heading > h2 {
+.specials > .heading > h2 {
   font-size: 32px;
 }
 
-.heading > button {
+.specials > .heading > button {
   height: min-content;
   padding: 1rem 1.2rem;
   border: none;
@@ -25,13 +25,13 @@
   cursor: pointer;
 }
 
-.body {
+.specials > .body {
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
-.card {
+.specials > .body > .card {
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -41,18 +41,18 @@
   transition-duration: 700ms;
 }
 
-.card:hover {
+.specials > .body > .card:hover {
   scale: 1.05;
   transition-duration: 700ms;
 }
 
-.card > img {
+.specials > .body > .card > img {
   border-radius: 5px;
   height: 200px;
   object-fit: cover;
 }
 
-.card > .description {
+.specials > .body > .card > .description {
   padding: 1.5rem;
 }
 
@@ -74,28 +74,28 @@
 }
 
 @media (max-width: 1300px) {
-  .card {
+  .specials > .body > .card {
     width: 25%;
   }
 }
 
 @media (max-width: 950px) {
-  .body {
+  .specials > .body {
     flex-direction: column;
     align-items: center;
   }
 
-  .card {
+  .specials > .body > .card {
     width: 60%;
   }
 
-  .card > img {
+  .specials > .body > .card > img {
     height: 250px;
   }
 }
 
 @media (max-width: 550px) {
-  .heading {
+  .specials > .heading {
     flex-direction: column;
   }
 }

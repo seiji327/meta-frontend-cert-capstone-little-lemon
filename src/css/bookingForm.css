@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.error {
+.form > .error {
   color: red;
 }
 

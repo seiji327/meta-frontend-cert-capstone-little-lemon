@@ -23,12 +23,12 @@
   color: black;
 }
 
-.social-media-icons {
+.footer-menu > .social-media-icons {
   display: flex;
   justify-content: space-between;
 }
 
-.social-media-icons > .social-media-icon {
+.footer-menu > .social-media-icons > .social-media-icon {
   font-size: 24px;
   cursor: pointer;
 }
@@ -54,7 +54,7 @@
     text-align: center;
   }
 
-  .social-media-icons {
+  .footer-menu > .social-media-icons {
     justify-content: space-evenly;
   }
 }

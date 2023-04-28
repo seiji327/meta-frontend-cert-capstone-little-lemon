@@ -4,6 +4,10 @@
   padding: 0.5rem;
 }
 
+.header > img {
+  cursor: pointer;
+}
+
 @media (max-width: 950px) {
   .header {
     justify-content: space-between;

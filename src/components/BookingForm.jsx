@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "../css/bookingForm.css";
 
 const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
+  const [name, setName] = useState("");
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
   const [bookingTime, setBookingTime] = useState(
     availableTimes?.length ? availableTimes[0] : undefined
@@ -22,6 +23,7 @@ const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
     e.preventDefault();
 
     const formData = {
+      name: name,
       date: date,
       bookingTime: bookingTime,
       numOfGuests: numOfGuests,
@@ -37,6 +39,14 @@ const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
+      <label htmlFor="res-name">Name</label>
+      <input
+        type="text"
+        id="res-name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        required
+      />
       <label htmlFor="res-date">Choose date</label>
       <input
         type="date"

@@ -22,6 +22,7 @@
   border-radius: 5px;
   background: #f4ce14;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .body {
@@ -36,10 +37,19 @@
   width: 20%;
   border-radius: 5px;
   background: #f3f3f37d;
+  cursor: pointer;
+  transition-duration: 700ms;
+}
+
+.card:hover {
+  scale: 1.05;
+  transition-duration: 700ms;
 }
 
 .card > img {
   border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card > .description {
@@ -76,7 +86,11 @@
   }
 
   .card {
-    width: 65%;
+    width: 60%;
+  }
+
+  .card > img {
+    height: 250px;
   }
 }
 

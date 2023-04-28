@@ -1,9 +1,9 @@
 import React from "react";
-import "./css/chicago.css";
+import "../css/chicago.css";
 
 const Chicago = () => {
   return (
-    <section className="chicago">
+    <section className="chicago" id="about">
       <article>
         <h2>Little Lemon</h2>
         <h3>Chicago</h3>

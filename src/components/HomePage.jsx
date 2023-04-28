@@ -6,11 +6,11 @@ import Footer from "./Footer";
 
 const HomePage = () => {
   return (
-    <>
+    <section id="home">
       <Header />
       <Main />
       <Footer />
-    </>
+    </section>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/footer.css";
+import "../css/footer.css";
 
 const Footer = () => {
   return (
@@ -44,17 +44,12 @@ const Footer = () => {
       </div>
       <div className="footer-menu">
         <h4>Social Media Links</h4>
-        <ul>
-          <li>
-            <a href="#address">Address</a>
-          </li>
-          <li>
-            <a href="#phone-number">Phone Number</a>
-          </li>
-          <li>
-            <a href="#email">Email</a>
-          </li>
-        </ul>
+        <section className="social-media-icons">
+          <i className="fa social-media-icon">&#xf16d;</i>
+          <i className="fa social-media-icon">&#xf230;</i>
+          <i className="fa social-media-icon"> &#xf232;</i>
+          <i className="fa social-media-icon"> &#xf0d5;</i>
+        </section>
       </div>
     </footer>
   );

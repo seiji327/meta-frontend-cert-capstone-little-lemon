@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/specials.css";
+import "../css/specials.css";
 
 const Specials = () => {
   return (
@@ -9,7 +9,7 @@ const Specials = () => {
         <button>Online Menu</button>
       </div>
       <div className="body">
-        {/* Item 1 */}
+        {/* Item 1  - Greek Salad - */}
         <article className="card">
           <img src="/greek-salad.jpg" alt="greek salad" />
           <div className="description">
@@ -27,13 +27,13 @@ const Specials = () => {
           </div>
         </article>
 
-        {/* Item 2 */}
+        {/* Item 2 - Lemon desert - */}
         <article className="card">
-          <img src="/greek-salad.jpg" alt="greek salad" />
+          <img src="/lemon-desert.jpg" alt="greek salad" />
           <div className="description">
             <div className="card-header">
-              <p className="item-name">Greek Salad</p>
-              <p className="price">$12.99</p>
+              <p className="item-name">Lemon Desert</p>
+              <p className="price">$8.99</p>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
@@ -47,11 +47,11 @@ const Specials = () => {
 
         {/* Item 3 */}
         <article className="card">
-          <img src="/greek-salad.jpg" alt="greek salad" />
+          <img src="/bruchetta.jpg" alt="greek salad" />
           <div className="description">
             <div className="card-header">
-              <p className="item-name">Greek Salad</p>
-              <p className="price">$12.99</p>
+              <p className="item-name">Bruchetta</p>
+              <p className="price">$15.99</p>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus

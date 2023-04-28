@@ -1,0 +1,14 @@
+.rating-stars {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+.rating-stars > * {
+  font-size: 1.2rem;
+}
+
+.rating-stars > .checked {
+  color: orange;
+}

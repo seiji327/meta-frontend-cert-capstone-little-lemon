@@ -40,6 +40,7 @@
   border: none;
   border-radius: 5px;
   margin-top: 1.5rem;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {

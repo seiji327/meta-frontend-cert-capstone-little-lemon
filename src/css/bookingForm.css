@@ -1,0 +1,44 @@
+.form {
+  display: grid;
+  max-width: 75%;
+  gap: 20px;
+  align-items: center;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+}
+
+.form > * {
+  margin: 0 6rem;
+}
+
+.form > label {
+  font-weight: bold;
+}
+
+.form > input,
+select {
+  padding: 0.5rem 1.3rem;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form > .submit-btn {
+  background-color: #f4ce14;
+  max-width: min-content;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.form > .submit-btn:hover {
+  scale: 1.1;
+  transition-duration: 600ms;
+}

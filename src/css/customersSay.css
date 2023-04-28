@@ -15,11 +15,44 @@
   width: 300px;
   background: #f3f3f37d;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.rating-card > h4 {
+.body > .rating-card > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.body > .rating-card > .name {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+}
+.body > .rating-card > .visited {
+  margin-top: 0;
+}
+
+.body > .rating-card > blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+.body > .rating-card > blockquote:before {
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
 }
 
 .customer-info {

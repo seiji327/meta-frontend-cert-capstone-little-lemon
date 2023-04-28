@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import "../css/bookingForm.css";
 
 const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
-  //console.log(availableTimes);
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
   const [bookingTime, setBookingTime] = useState(
     availableTimes?.length ? availableTimes[0] : undefined
@@ -14,7 +13,6 @@ const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
 
   const navigate = useNavigate();
 
-  // This is just a test purpose
   const handleDateChange = (e) => {
     dispatch({ date: e.target.value });
     setDate(e.target.value);
@@ -31,12 +29,9 @@ const BookingForm = ({ availableTimes, dispatch, submitForm }) => {
     };
 
     if (submitForm(formData)) {
-      console.log("Form data is being sent to the server");
-      console.log(`Form Data is ${JSON.stringify(formData)}`);
-
       navigate("/confirmation", { state: { formData: formData } });
     } else {
-      console.log("Some errors have occurred ");
+      console.log("Errors have occurred ");
     }
   };
 

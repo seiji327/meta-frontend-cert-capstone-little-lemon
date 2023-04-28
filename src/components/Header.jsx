@@ -1,8 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
-
 import { useNavigate } from "react-router-dom";
 
+import Nav from "./Nav";
 import "../css/header.css";
 
 const Header = () => {

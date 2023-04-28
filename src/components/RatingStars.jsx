@@ -7,7 +7,10 @@ const RatingStars = ({ stars }) => {
     <div className="rating-stars">
       {Array.from(Array(5)).map((_, index) => (
         <span
-          class={`fa fa-star ${index + 1 <= stars ? "checked" : ""}`.trimEnd()}
+          key={index}
+          className={`fa fa-star ${
+            index + 1 <= stars ? "checked" : ""
+          }`.trimEnd()}
         ></span>
       ))}
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../css/chicago.css";
 
 const Chicago = () => {
@@ -16,8 +17,8 @@ const Chicago = () => {
         </p>
       </article>
       <div className="overlay-images">
-        <img src="/restaurant.jpg" alt="" width={400} />
-        <img src="/chef.jpg" alt="" width={400} />
+        <img src="/restaurant.jpg" alt="restaurant indoor" width={400} />
+        <img src="/chef.jpg" alt="chefs" width={400} />
       </div>
     </section>
   );

@@ -9,15 +9,11 @@ const ConfirmedBooking = () => {
   const navigate = useNavigate();
   const { formData } = useLocation().state;
 
-  console.log(Object.entries(formData).length);
-
-  console.log(formData);
   return (
     <main className="confirmed-booking">
       <Header />
       <h1>Your booking has been confirmed!</h1>
 
-      {/* DISPLAY RECEIPT OF THE TABLE RESERVATION */}
       <section className="reservation-detail">
         {Object.entries(formData).length
           ? Object.entries(formData).map(([key, value]) => (

@@ -1,11 +1,12 @@
 import React from "react";
+
 import "../css/footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <img src="/Logo.svg" alt="" />
-      <div className="footer-menu">
+      <nav className="footer-menu">
         <h4>Doormat Navigation</h4>
         <ul>
           <li>
@@ -27,8 +28,8 @@ const Footer = () => {
             <a href="#login">Login</a>
           </li>
         </ul>
-      </div>
-      <div className="footer-menu">
+      </nav>
+      <nav className="footer-menu">
         <h4>Contact</h4>
         <ul>
           <li>
@@ -41,8 +42,8 @@ const Footer = () => {
             <a href="#email">Email</a>
           </li>
         </ul>
-      </div>
-      <div className="footer-menu">
+      </nav>
+      <nav className="footer-menu">
         <h4>Social Media Links</h4>
         <section className="social-media-icons">
           <i className="fa social-media-icon">&#xf16d;</i>
@@ -50,7 +51,7 @@ const Footer = () => {
           <i className="fa social-media-icon"> &#xf232;</i>
           <i className="fa social-media-icon"> &#xf0d5;</i>
         </section>
-      </div>
+      </nav>
     </footer>
   );
 };
